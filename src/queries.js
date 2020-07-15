@@ -137,7 +137,6 @@ export const PRODUCTS_QUERY = `
                   currencyCode
                 }
                 id
-                inventoryQuantity
                 image {
                   altText
                   id
