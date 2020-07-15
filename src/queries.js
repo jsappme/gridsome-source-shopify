@@ -162,6 +162,7 @@ export const PRODUCTS_QUERY = `
           description
           descriptionHtml
           handle
+          totalInventory
           id
           onlineStoreUrl
           options {
