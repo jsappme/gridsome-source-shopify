@@ -158,7 +158,6 @@ export const PRODUCTS_QUERY = `
             }
           }
           availableForSale
-          totalInventory
           createdAt
           description
           descriptionHtml
