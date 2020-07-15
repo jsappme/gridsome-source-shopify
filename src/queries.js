@@ -137,6 +137,7 @@ export const PRODUCTS_QUERY = `
                   currencyCode
                 }
                 id
+                inventoryQuantity
                 image {
                   altText
                   id
@@ -162,7 +163,6 @@ export const PRODUCTS_QUERY = `
           description
           descriptionHtml
           handle
-          totalInventory
           id
           onlineStoreUrl
           options {

@@ -49,7 +49,6 @@ class ShopifySource {
     // Load data into store
     api.loadSource(async actions => {
       console.log(`Loading data from ${options.storeUrl}`)
-
       await this.setupStore(actions)
       await this.getProductTypes(actions)
       await this.getCollections(actions)
@@ -116,7 +115,6 @@ class ShopifySource {
         product.collections = product.collections.edges.map(({ node: collection }) => {
           const collectionNode = collectionStore.getNodeById(collection.id)
           if (collectionNode) collectionNode.products.push(product.id)
-
           return actions.createReference(this.TYPENAMES.COLLECTION, collection.id)
         })
       }
