@@ -161,6 +161,7 @@ export const PRODUCTS_QUERY = `
           createdAt
           description
           descriptionHtml
+          totalInventory
           handle
           id
           onlineStoreUrl
