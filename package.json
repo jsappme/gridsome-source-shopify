@@ -2,17 +2,17 @@
   "name": "gridsome-source-shopify",
   "description": "Shopify source plugin for Gridsome",
   "version": "0.1.13",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "engines": {
     "node": ">=10.x"
   },
   "author": {
-    "email": "travis@travisreynolds.dev",
-    "name": "Travis Reynolds"
+    "email": "herve76gmail.com",
+    "name": "Herve Fulchiron"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thetre97/gridsome-source-shopify.git"
+    "url": "https://github.com/jsappme/gridsome-source-shopify.git"
   },
   "license": "MIT",
   "keywords": [
